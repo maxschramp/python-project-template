@@ -22,7 +22,7 @@ echo Creating main.bat...
 curl -o main.bat https://raw.githubusercontent.com/maxschramp/python-project-template/main/main.bat
 
 echo Creating template.py...
-curl -o template.pyhttps://raw.githubusercontent.com/maxschramp/python-project-template/main/template.py
+curl -o template.py https://raw.githubusercontent.com/maxschramp/python-project-template/main/template.py
 
 echo Creating main.py
 copy template.py main.py
