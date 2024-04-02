@@ -9,8 +9,8 @@ from collections.abc import Sequence
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    # Add arguments here
-    # parser.add_argument("--example"", type=str)
+    # Add arguments here (https://docs.python.org/3/library/argparse.html)
+    # parser.add_argument("--name", type=str, required=True, nargs=1)
     args = parser.parse_args(argv)
 
     # Start writing code here
