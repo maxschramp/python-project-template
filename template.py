@@ -10,13 +10,13 @@ from collections.abc import Sequence
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     # Add arguments here
+    # parser.add_argument("--example"", type=str)
     args = parser.parse_args(argv)
 
-    # Implement behaviour here
+    # Start writing code here
 
     return 0
 
 
 if __name__ == "__main__":
-    # Start writing code here
     raise SystemExit(main())
