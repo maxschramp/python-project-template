@@ -26,6 +26,6 @@ curl -o template.py https://raw.githubusercontent.com/maxschramp/python-project-
 
 echo Creating main.py
 
-template.py > main.py
+copy template.py main.py
 
 pause
