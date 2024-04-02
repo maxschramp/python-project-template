@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# template courtesy of https://adamj.eu/tech/2021/10/09/a-python-script-template-with-and-without-type-hints-and-async/
+
 from __future__ import annotations
 
 import argparse
