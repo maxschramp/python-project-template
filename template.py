@@ -7,8 +7,8 @@ import argparse
 import os
 from collections.abc import Sequence
 
-from colorama import Fore, Style
-from dotenv import dotenv_values
+#from colorama import Fore, Style
+#from dotenv import dotenv_values
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -18,12 +18,12 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     # load variables from .env file
-    global env
-    env = dotenv_values(f"{os.path.dirname(os.path.realpath(__file__))}\\.env")
+    #global env
+    #env = dotenv_values(f"{os.path.dirname(os.path.realpath(__file__))}\\.env")
 
     # Start writing code here
 
-    print(Style.RESET_ALL)
+    #print(Style.RESET_ALL)
     return 0
 
 
